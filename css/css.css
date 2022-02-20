@@ -1,0 +1,138 @@
+body{
+	font-family: 'Titillium Web', sans-serif;
+	margin: 0;
+}
+.header{
+	background:#996699;
+	height: 100vh;
+}
+.container{
+	margin-left: 200px;
+	margin-right: 200px;
+}
+.head{
+	display: flex;
+	padding-bottom: 130px;
+	padding-top: 15px;
+}
+.logo{
+	padding-top: 15px;
+}
+.menu{
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #ffffff;
+	text-decoration: none;
+	margin-left: auto;
+	font-weight: bold;
+}
+.menu-main {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.menu-main li {
+  display: inline-block;
+  margin-right: -4px;
+}
+.menu-main a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 30px;
+  color: white;
+  transition: .3s linear;
+}
+.menu-main a.current,
+.menu-main a:hover {background:#663366;}
+
+.welcom-title{
+	font-size: 42px;
+	color: #ffffff;
+	font-weight: bold;
+	text-align: center;
+	padding: 0px 60px 0px 60px;
+}
+.welcom-btn{
+	text-align: center;
+}
+.button {
+  display: inline-block;
+  background: #ff6633;
+  color: #ffffff;
+  padding: 20px 60px;
+  border-radius: 3px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.section-services{
+	background: #00cc99;
+}
+.services-title{
+	text-align: center;
+}
+.title p{
+	font-size: 40px;
+	color: #ffffff;
+	margin: 0;
+	padding-top: 115px;
+	padding-bottom: 50px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.services-icons{
+	display: flex;
+	text-align: center;
+	padding-bottom: 130px;
+}
+.info{
+	font-size: 18px;
+	color: #ffffff;
+	font-weight: bold;
+	padding-bottom: 80px;
+}
+.icons-title{
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 24px;
+}
+.icons-info{
+	font-size: 16px;
+	color: #ffffff;
+}
+@media screen and (max-width: 425px){
+	.container{
+		margin: 0;
+	}
+	.welcom-title {
+	    font-size: 20px;
+	}
+	.logo{
+		padding-left: 20px;
+		text-align: center;
+	}
+	.button{
+		padding: 15px 35px;
+	}
+	.head{
+		display: block;
+	}
+	.menu-main a{
+		padding: 15px 15px;
+	} 
+	.title p{
+		font-size: 30px;
+	}
+	.info{
+		padding: 0px 15px;
+	}
+	.services-icons{
+		display: block;
+	}
+	.icons-title{
+		font-size: 20px;
+	}
+}
